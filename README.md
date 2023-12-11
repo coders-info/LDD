@@ -21,6 +21,9 @@ After you know how behaoviuuor the seoftware
 You can develop new module and test the code based on before genrated logs with the same decorator and after time with refactored data - migrated to a new format
 you can use 2 format of logs data through connect two different data logs through different decorator format
 
+#### Responsibility
+A developer who creates and releases a feature must be accountable himself or herself for its success. LDD places developers closer to the releases of their own features and keeps them aware of their code’s influence on system behavior and end users
+
 
 ### Log-Driven Development (LDD)
 Log-Driven Development (LDD) is a software development approach where the design and construction of software are primarily informed and driven by the analysis of system logs. 
@@ -251,6 +254,7 @@ Thus, LDD should be complemented by additional information and insights from oth
 + [Test-driven development - Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development)
 + [coders-info/reverse-design: reverse-design.coders.info - Reverse design is focusing on logs and step by steps to unit test and code](https://github.com/coders-info/reverse-design)
 + [dialoget/python: python.dialoget.com is a test framework for multilanguage source code, based on decorators](https://github.com/dialoget/python)
++ [An Introduction to Log-Driven Development | Logz.io](https://logz.io/blog/log-driven-development/)
 + 
 
  
