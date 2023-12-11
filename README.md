@@ -1,6 +1,25 @@
 # Log-Driven Development (LDD) - [ldd.coders.info](http://ldd.coders.info)
 
 
+A world where applications and developers **work in harmony with machines** is one step closer.
+
+LDD is the practice of creating software based on logging application behavior in a way that is understandable to humans (human readable) and reusable by machines (machine friendly).
+By using decorators to create logs in the form of sentences that describe the intent and actions of a function using input data,
+and attaching data to them in JSON format to enable their use in various programming languages.
+
+This approach is intended to make code easier to understand without having to sift through complex log parsers and extensive documentation that are often incomplete or outdated. Decorators are "active" forms of documentation because they are executed while the program is running and generate logs that immediately document the system's behavior.
+
+In summary, the suggestion is to create a system that:
+
+- Allows you to save intentions and actions performed by functions in a way that is accessible to humans and machines, which improves understanding of the system's behavior.
+- Supports the refactoring of existing code, making it more modular, and facilitates the generation of automatic tests based on log data.
+- It allows you to create autonomous and modular software that improves itself over time based on the log data obtained.
+
+This approach could significantly impact the software development process by reducing the need for manual documentation and facilitating both the development and maintenance of systems.
+However, implementing such a vision requires careful design of the login system so that it is actually a useful tool and not another source of disinformation or excess data.
+
+
+
 ## LDD Patterns
 
 **LDD** align closely with Test-Driven Development (TDD) and behaviour-driven development (BDD), but with a particular focus on understanding system behavior through logs, is working based on such main principles:
@@ -305,6 +324,9 @@ The team began to understand the potential of LDD. It wasn't just about solving 
 A world where applications and developers **work in harmony with machines** is one step closer.
 
 
+
+
+
 ## PL
 
 Pewnego dnia w dziale rozwoju oprogramowania firmy Softreck, Irena, doświadczona programistka, podzieliła się z zespołem nowym pomysłem. Chciała opowiedzieć o pewnym wyjątkowym podejściu, które mogłoby przekształcić sposób pracy z kodem — zwłaszcza legacy code, zagmatwanych bebechów aplikacji, które prędzej czy później każdy deweloper musi zmierzyć się.
@@ -331,6 +353,23 @@ Zespół zaczął rozumieć potencjał LDD. Nie chodziło tylko o rozwiązywanie
 
 
 Świat, w którym aplikacje i programiści **współpracują w harmonii z maszynami**, był już o krok bliżej.
+
+
+
+LDD praktyka wytwarzania oprogramowania opartej na logowaniu zachowań aplikacji w sposób zrozumiały dla ludzi (human readable) oraz reużywalny przez maszyny (machine friendly). 
+Poprzez używanie dekoratorów do tworzenia logów w formie zdań, które opisują intencje i działania funkcji z wykorzystaniem danych wejściowych,
+a także dołączania do nich danych w formacie JSON, aby umożliwić ich wykorzystanie w różnych językach programowania.
+
+Takie podejście ma na celu ułatwienie rozumienia kodu bez konieczności przeglądania skomplikowanych parserów logów oraz obszernej dokumentacji, które często są niekompletne lub przestarzałe. Dekoratory stanowią "aktywne" formy dokumentacji, gdyż są one wykonane w czasie działania programu i generują logi, które od razu dokumentują zachowanie systemu.
+
+Podsumowując, sugestia dotyczy stworzenia systemu, który:
+
+- Umożliwia zapisywanie intencji i akcji wykonanych przez funkcje w sposób przystępny dla człowieka i maszyny, co wpływa na lepsze zrozumienie zachowania systemu.
+- Wspiera refaktoryzację istniejącego kodu, uczynienie go bardziej modularnym, oraz ułatwia generowanie automatycznych testów na podstawie danych z logów.
+- Pozwala na tworzenie autonomicznego i modularnego oprogramowania, które z czasem samo się udoskonala na bazie uzyskiwanych danych logowych.
+
+Takie podejście mogłoby znacząco wpłynąć na proces wytwarzania oprogramowania, zmniejszając potrzebę manualnej dokumentacji i ułatwiając zarówno rozwój, jak i utrzymanie systemów. 
+Jednak realizacja takiej wizji wymaga starannego zaprojektowania systemu logowania, tak by rzeczywiście był on przydatnym narzędziem, a nie kolejnym źródłem dezinformacji lub nadmiaru danych.
 
 
 ## Keywords
