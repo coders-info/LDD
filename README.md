@@ -277,6 +277,62 @@ However, care must be taken when using logs as the sole source of truth; logs ca
 Thus, LDD should be complemented by additional information and insights from other system documentation and stakeholder input where possible.
 
 
+## Intro EN
+
+One day in the software development department of Softreck, Irena, an experienced programmer, shared a new idea with the team. She wanted to talk about a unique approach that could transform the way we work with code - especially legacy code, the confusing guts of applications that every developer has to deal with sooner or later.
+
+"How about a revolution in debugging and documentation?" - Irena started over her morning coffee.
+"Imagine a method that allows you to 'talk' to the code like a good friend who explains exactly what he is doing step by step."
+
+Intrigued, developers began to listen more carefully.
+
+Irena continued: "Let's call it Log-Driven Development or LDD. The system is based on decorators that wrap our functions, creating descriptive logs in the form of sentences - clear to each of us and at the same time fully understandable to machines. Each function will be documented over time real, not only through static comments, but by actively logging her behavior."
+
+The team was full of doubts. “Won't this make us overloaded with data?” - asked Marek, a junior in the team.
+
+"No," Irena replied. "The key is intelligent logging. Instead of logs full of unnecessary data, our decorators will save only what is crucial: intentions and performed actions, all supplemented with data in JSON format for easy deserialization."
+
+"Interesting..." Ewa, the second programmer, whispered, imagining how much time such a system could save. “We can use this data to automatically generate tests, right?”
+
+"Exactly!" - Irena confirmed.
+"By observing our applications in action, we can generate sets of inputs and expected results from the logs. Tests suddenly become more effective because they reflect real-world scenarios."
+
+The team began to understand the potential of LDD. It wasn't just about solving current problems, but about creating a foundation for future developments and refactorings. An autonomous system that, learning based on generated logs, will become more efficient every day and independently offer suggestions for improvements.
+
+"The feeling that working on code is like talking to an application that understands its behavior and helps to improve it - this is a real paradigm shift," noted Rafał, the team's tech leader. "Irena may have just found a way to build a bridge between the machine and the programmer, opening the way to a modular and autonomous future of software."
+
+
+A world where applications and developers **work in harmony with machines** is one step closer.
+
+
+## PL
+
+Pewnego dnia w dziale rozwoju oprogramowania firmy Softreck, Irena, doświadczona programistka, podzieliła się z zespołem nowym pomysłem. Chciała opowiedzieć o pewnym wyjątkowym podejściu, które mogłoby przekształcić sposób pracy z kodem — zwłaszcza legacy code, zagmatwanych bebechów aplikacji, które prędzej czy później każdy deweloper musi zmierzyć się.
+
+"Co powiecie na rewolucję w debugowaniu i dokumentacji?" — zaczęła Irena przy porannej kawie. 
+"Wyobraźcie sobie metodę, która pozwala 'rozmawiać' z kodem jak z dobrym znajomym, który dokładnie wyjaśnia, co robi krok po kroku."
+
+Zaintrygowani programiści zaczęli słuchać uważniej.
+
+Irena kontynuowała: "Nazwijmy to Log-Driven Development lub LDD. System opiera się na dekoratorach, które otulają nasze funkcje, tworząc logi opisowe w formie zdań — klarowne dla każdego z nas i jednocześnie w pełni zrozumiałe dla maszyn. Każda funkcja będzie udokumentowana w czasie rzeczywistym, nie tylko poprzez statyczne komentarze, ale przez aktywne logowanie jej zachowań."
+
+Zespół był pełen wątpliwości. "Czy to nie sprawi, że będziemy przeładowani danymi?" — zapytał Marek, junior w zespole.
+
+"Nie," — odpowiedziała Irena. "Kluczem jest inteligentne logowanie. Zamiast logów pełnych zbędnych danych, nasze dekoratory będą zapisywać tylko to, co kluczowe: intencje i wykonane akcje, a wszystko to uzupełnione o dane w formacie JSON dla łatwej deserializacji."
+
+"Interesujące..." — wyszeptała Ewa, druga z programistek, wyobrażając sobie, jak wiele czasu mógłby zaoszczędzić taki system. "Możemy użyć tych danych do automatycznego generowania testów, prawda?"
+
+"Dokładnie!" — potwierdziła Irena. 
+"Obserwując nasze aplikacje w działaniu, możemy generować z logów zestawy danych wejściowych i oczekiwanych wyników. Testy suddenly stają się efektywniejsze, ponieważ są odzwierciedleniem rzeczywistych scenariuszy."
+
+Zespół zaczął rozumieć potencjał LDD. Nie chodziło tylko o rozwiązywanie bieżących problemów, ale o tworzenie fundamentu dla przyszłych rozwojów i refaktoryzacji. Autonomiczny system, który ucząc się na podstawie generowanych logów, będzie z każdym dniem wydajniejszy i samodzielnie oferował sugestie usprawnień.
+
+"Poczucie, że praca na kodzie jest jak rozmowa z aplikacją, która rozumie swoje zachowania i pomaga w ich udoskonaleniu — to prawdziwa zmiana paradygmatu," — zauważył Rafał, tech leader zespołu. "Irena mogła właśnie znaleźć sposób na zbudowanie mostu między maszyną a programistą, otwierając drogę do modułowej i autonomicznej przyszłości oprogramowania."
+
+
+Świat, w którym aplikacje i programiści **współpracują w harmonii z maszynami**, był już o krok bliżej.
+
+
 ## Keywords
 
 
