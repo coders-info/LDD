@@ -66,8 +66,9 @@ Iterative Development:
 
 ### Summary 
 
-in this production methodology, there is no documentation, you just observe what comes out in the logs and create code that will react accordingly to the input data, and these logs must contain properly formatted input and output data
-we use dialoget decorator to describe a function in the form of a sentence that reflects how this function works
+By using the LDD principle to create software based on logs, you can create a more autonomous system based on its input and output data at the development stage, where the person responsible for the provided data and the designer will directly influence the generated code.
+In LDD is no documentation, you just observe what comes out in the logs and create code that will react accordingly to the input data, and these logs must contain properly formatted input and output data
+The Dialoget decorator can be used to describe a function in the form of a sentence that reflects how this function works
 + [dialoget/python: python.dialoget.com is a test framework for multilanguage source code, based on decorators](https://github.com/dialoget/python)
 
 with one decorator you get 3 benefits: 
