@@ -20,13 +20,21 @@ This method allows you to create an autonomous system that, starting from only t
 Log-Driven Development (LDD) is a software development approach where the design and construction of software are primarily informed and driven by the analysis of system logs. In this approach, logs are used as the fundamental source of truth for determining how a system should behave in both routine and exceptional circumstances. Developers use logs to abstract system requirements and functionality, write targeted tests, and then develop system features iteratively while respecting the guidance provided by the logs.
 
 
+
 ## Specification
 
-+ stages:
-  + dev/test - printed data input and outputs and behaviours
-  + production - printed behaviours without sensetive data
+### Logs format 
 + logs are designed to describe each inputs and outputs
-+ remember to disable extensive logging as soon as you go into production
++ In simple form each function can be saved in a csv file as text with colums as Variable
++ If we expect all data in one logs file, it should support multi columns format line by line, such Newline Delimited Objects Format - [NDOF](https://www.ndof.org/) 
+
+### Stages in SDLC
+
+The Logs provided by dialoget solution are working in debugger mode, where you can see more details, so you should care about securite on production stage and tuirn off it through pipeline or save in another machine, not production server with secure layer and protocol.
+
++ stages:
+  + dev/test - printed data input and outputs and behaviours (remember to disable extensive logging as soon as you go into production)
+  + production - printed behaviours without sensetive data  
 
 ### Log Analysis
  Understanding Expected and Unexpected Behaviors:
