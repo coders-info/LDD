@@ -1,4 +1,4 @@
-# [Log-Driven Development (LDD) - ldd.coders.info](http://ldd.coders.info)
+# Log-Driven Development (LDD) - [ldd.coders.info](http://ldd.coders.info)
 
 
 ## LDD Patterns
