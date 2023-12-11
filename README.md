@@ -11,8 +11,10 @@
 + Modular design to create monorepo
 + Continouous improvement with CI/CD integration
 
-### Benefits
 
+### Benefits of Developing Code with Logs and Alerts
+
+Development and test cycles are becoming quicker and more efficient, so organizations need to use log-driven development for stricter monitoring
 Log-Driven Development method allows you to create an autonomous system that, starting from only the system logs, will be able to recreate it, step by step, using humans and machines
 You can start with legacy code and just conenct the decorator to record behaviours
 After you know how behaoviuuor the seoftware
@@ -21,7 +23,12 @@ you can use 2 format of logs data through connect two different data logs throug
 
 
 ### Log-Driven Development (LDD)
-Log-Driven Development (LDD) is a software development approach where the design and construction of software are primarily informed and driven by the analysis of system logs. In this approach, logs are used as the fundamental source of truth for determining how a system should behave in both routine and exceptional circumstances. Developers use logs to abstract system requirements and functionality, write targeted tests, and then develop system features iteratively while respecting the guidance provided by the logs.
+Log-Driven Development (LDD) is a software development approach where the design and construction of software are primarily informed and driven by the analysis of system logs. 
+
+Logs are used as the fundamental source of truth for determining how a system should behave in both routine and exceptional circumstances. 
+
+Developers use logs to abstract system requirements and functionality, write targeted tests, and then develop system features iteratively while respecting the guidance provided by the logs.
+LDD as the natural evolution of TDD (test-driven development) in production, and it gives R&D teams the transparency that they need to have to enable code to ship to production more quickly while maintaining the necessary checks and balances.
 
 
 ## Definitions
@@ -241,6 +248,9 @@ Thus, LDD should be complemented by additional information and insights from oth
 + [googleapis/google-cloud-php-debugger](https://github.com/googleapis/google-cloud-php-debugger)
 + [GoogleCloudPlatform/snapshot-debugger](https://github.com/GoogleCloudPlatform/snapshot-debugger)
 + [Log-Driven Development - DEV Community](https://dev.to/alexsergey/log-driven-development-3jmf)
++ [Test-driven development - Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development)
++ [coders-info/reverse-design: reverse-design.coders.info - Reverse design is focusing on logs and step by steps to unit test and code](https://github.com/coders-info/reverse-design)
++ [dialoget/python: python.dialoget.com is a test framework for multilanguage source code, based on decorators](https://github.com/dialoget/python)
 + 
 
  
