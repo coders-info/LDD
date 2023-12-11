@@ -23,6 +23,10 @@ Log-Driven Development (LDD) is a software development approach where the design
 
 ## Specification
 
+### Logs Data
+The Logs data are comming from decorator so, there are more detailed data, then jast outputs
+We can work in **debugger mode** thta's why it's important to separate the usual logs and the **decorator driven logs in debugger mode**
+
 ### Logs format 
 + logs are designed to describe each inputs and outputs
 + In simple form each function can be saved in a csv file as text with colums as Variable
@@ -32,12 +36,12 @@ Log-Driven Development (LDD) is a software development approach where the design
 
 The Logs provided by dialoget solution are working in debugger mode, where you can see more details, so you should care about securite on production stage and tuirn off it through pipeline or save in another machine, not production server with secure layer and protocol.
 
-+ stages:
-  + dev/test - printed data input and outputs and behaviours (remember to disable extensive logging as soon as you go into production)
-  + production - printed behaviours without sensetive data  
++ dev/test - printed data input and outputs and behaviours (remember to disable extensive logging as soon as you go into production)
++ production - printed behaviours without sensetive data  
+
 
 ### Log Analysis
- Understanding Expected and Unexpected Behaviors:
+Understanding Expected and Unexpected Behaviors:
  
 - Collect and review logs from the system to examine successful operations, errors, warnings, and any other significant events.
 - Document system behavior as described by the logs, distinguishing between normal behavior and exceptions.
