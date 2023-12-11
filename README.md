@@ -22,6 +22,11 @@ Log-Driven Development (LDD) is a software development approach where the design
 
 ## Specification
 
++ logs stages:
+  + dev - data input and outputs adn behaviours
+  + production - behaviours
++ logs are designed to describe each inputs and outputs
++ remember to disable extensive logging as soon as you go into production
 
 ### Log Analysis
  Understanding Expected and Unexpected Behaviors:
